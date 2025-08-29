@@ -22,9 +22,9 @@ const userSchema = new mongoose.Schema({
     type: String,
     default: null
   },
-  bookmarks: [
-    { type: mongoose.Schema.Types.ObjectId, ref: 'Question' }
-  ],
+  // bookmarks: [
+  //   { type: mongoose.Schema.Types.ObjectId, ref: 'Question' }
+  // ],
 
   // Payment / Access Control
   subscription: {            
